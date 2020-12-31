@@ -1,0 +1,9 @@
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\bin\Debug\netcoreapp3.1\Paycompute.Entity.deps.json
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\bin\Debug\netcoreapp3.1\Paycompute.Entity.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\bin\Debug\netcoreapp3.1\Paycompute.Entity.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.pdb

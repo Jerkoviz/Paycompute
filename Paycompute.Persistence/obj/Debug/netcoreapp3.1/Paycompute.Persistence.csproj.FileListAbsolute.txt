@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Entity.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.deps.json
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.runtimeconfig.json
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.runtimeconfig.dev.json
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Entity.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.csproj.CopyComplete
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.genruntimeconfig.cache
