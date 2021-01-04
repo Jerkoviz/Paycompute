@@ -62,3 +62,12 @@ C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Paycompute.pdb
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Paycompute.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Paycompute.StaticWebAssets.xml
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Paycompute.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
