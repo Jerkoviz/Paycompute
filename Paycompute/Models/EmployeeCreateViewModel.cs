@@ -15,20 +15,18 @@ namespace Paycompute.Models
             RegularExpression(@"^[A-Z]{3}[0-9]{3}$")]
         public string EmployeeNo { get; set; }
         [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength =2)]
-        [RegularExpression(@"^[A-Z]a-zA-Z""'\s-*$"), Display(Name ="First Name")]
+        [Display(Name ="First Name")]
         public string FirstName { get; set; }
         [StringLength(50), Display(Name ="Middle Name")]
         public string MiddleName { get; set; }
-        [Required(ErrorMessage = "Last Name is required"), StringLength(50, MinimumLength = 2)]
-        [RegularExpression(@"^[A-Z]a-zA-Z""'\s-*$"), Display(Name = "First Name")]
-        public string LastName 
+        public string LastName { get; set; }        
+        public string FullName 
         {
             get
             {
                 return FirstName + (string.IsNullOrEmpty(MiddleName) ? " " : (" " + (char?)MiddleName[0] + ".").ToUpper()) + LastName;
             }
-         }
-        public string FullName { get; set; }
+        }
         public string Gender { get; set; }
         [Display (Name ="Photo")]
         public IFormFile ImageUrl { get; set; }

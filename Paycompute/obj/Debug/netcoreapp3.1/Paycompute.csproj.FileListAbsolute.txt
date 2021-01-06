@@ -71,3 +71,7 @@ C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Paycompute.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Detail.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs

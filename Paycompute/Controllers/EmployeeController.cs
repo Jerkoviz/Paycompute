@@ -88,7 +88,7 @@ namespace Paycompute.Controllers
                 await _employeeService.CreateAsync(employee);
                 return RedirectToAction(nameof(Index));
             }
-            return View();
+            return View(model);
 
         }
 
@@ -123,7 +123,7 @@ namespace Paycompute.Controllers
                 Postcode = employee.Postcode
             };
 
-            return View(model);
+            return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
