@@ -17,7 +17,7 @@ namespace Paycompute.Services
         decimal OverTimeRate(decimal hourlyRate);
         decimal ContractualEarnings(decimal hoursWorked, decimal contractualHours, decimal hourlyRate);
         decimal OverTimeEarnings(decimal overTimeHours, decimal overTimeRate);
-        decimal TotalEarnings(decimal hoursWorked, decimal contractualEarnings);
+        decimal TotalEarnings(decimal overTimeEarnings, decimal contractualEarnings);
         decimal TotalDeduction(decimal tax, decimal nic, decimal studentLoanRepayment, decimal unionFees);
         decimal NetPay(decimal totalEarnings, decimal totalDeduction);
 
