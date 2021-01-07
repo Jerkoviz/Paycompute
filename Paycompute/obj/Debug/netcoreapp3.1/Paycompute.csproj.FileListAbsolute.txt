@@ -75,3 +75,14 @@ C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Detail.cshtml.g.cs
 C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Index.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Create.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Detail.cshtml.g.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Payslip.cshtml.g.cs

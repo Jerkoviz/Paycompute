@@ -1,11 +1,12 @@
-﻿using Paycompute.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Paycompute.Entity;
 using Paycompute.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
+
 
 namespace Paycompute.Services.Implementation
 {
@@ -27,7 +28,7 @@ namespace Paycompute.Services.Implementation
         }
         public Employee GetById(int employeeId) =>
 
-            _context.Employees.Where(e => e.Id == employeeId).FirstOrDefault();
+            _context.Employees.Where(e => e.EmployeeId == employeeId).FirstOrDefault();
 
         public async Task Delete(int employeeId)
         {
@@ -89,7 +90,7 @@ namespace Paycompute.Services.Implementation
             return GetAll().Select(emp => new SelectListItem
             {
                 Text = emp.FullName,
-                Value = emp.Id.ToString()
+                Value = emp.EmployeeId.ToString()
 
             });
         }

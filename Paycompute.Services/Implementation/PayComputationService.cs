@@ -1,11 +1,12 @@
-﻿using Paycompute.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Paycompute.Entity;
 using Paycompute.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
+
 
 namespace Paycompute.Services.Implementation
 {
@@ -43,7 +44,7 @@ namespace Paycompute.Services.Implementation
             var allTaxYear = _context.TaxYears.Select(taxYears => new SelectListItem
             {
                 Text = taxYears.YearOfTax,
-                Value = taxYears.Id.ToString()
+                Value = taxYears.TaxYearId.ToString()
             });
             return allTaxYear;
         }
@@ -51,7 +52,7 @@ namespace Paycompute.Services.Implementation
         public PaymentRecord GetById(int paymentRecordId) =>     
             _context.PaymentRecords.Where(pay => pay.Id == paymentRecordId).FirstOrDefault();
         public TaxYear GetTaxYearById(int id)
-            => _context.TaxYears.Where(tax => tax.Id == id).FirstOrDefault();
+            => _context.TaxYears.Where(tax => tax.TaxYearId == id).FirstOrDefault();
 
 
         public decimal NetPay(decimal totalEarnings, decimal totalDeduction)

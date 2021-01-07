@@ -28,7 +28,7 @@ namespace Paycompute.Controllers
         {
             var employees = _employeeService.GetAll().Select(employee => new EmployeeIndexViewModel
             {
-                Id = employee.Id,
+                Id = employee.EmployeeId,
                 EmployeeNo = employee.EmployeeNo,
                 ImageUrl = employee.ImageUrl,
                 FullName = employee.FullName,
@@ -54,7 +54,7 @@ namespace Paycompute.Controllers
             {
                 var employee = new Employee
                 {
-                    Id = model.Id,
+                    EmployeeId = model.Id,
                     EmployeeNo = model.EmployeeNo,
                     FirstName = model.FirstName,
                     MiddleName = model.MiddleName,
@@ -103,7 +103,7 @@ namespace Paycompute.Controllers
 
             var model = new EmployeeEditViewModel()
             {
-                Id = employee.Id,
+                Id = employee.EmployeeId,
                 EmployeeNo = employee.EmployeeNo,
                 FirstName = employee.FirstName,
                 MiddleName = employee.MiddleName,
@@ -179,7 +179,7 @@ namespace Paycompute.Controllers
             }
             EmployeeDetailViewModel model = new EmployeeDetailViewModel()
             {
-                Id = employee.Id,
+                Id = employee.EmployeeId,
                 EmployeeNo = employee.EmployeeNo,
                 FullName = employee.FullName,
                 Gender = employee.Gender,
@@ -208,7 +208,7 @@ namespace Paycompute.Controllers
             }
             var model = new EmployeeDeleteViewModel()
             {
-                Id = employee.Id,
+                Id = employee.EmployeeId,
                 FullName = employee.FullName
             };
             return View(model);

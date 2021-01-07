@@ -1,9 +1,10 @@
-﻿using Paycompute.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Paycompute.Entity;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
+
 
 namespace Paycompute.Services
 {

@@ -4,6 +4,7 @@ using Paycompute.Models;
 using Paycompute.Services;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace Paycompute.Controllers
 {
@@ -44,7 +45,7 @@ namespace Paycompute.Controllers
                 PayDate = pay.PayDate,
                 PayMonth = pay.PayMonth,
                 TaxYearId = pay.TaxYearId,
-                TaxYear = _payComputationService.GetTaxYearById(pay.TaxYearId).YearOfTax,
+                TaxYear = pay.TaxYear,
                 TotalEarnings = pay.TotalEarnings,
                 TotalDeduction = pay.TotalDeduction,
                 NetPayment = pay.NetPayment
@@ -98,5 +99,81 @@ namespace Paycompute.Controllers
             return View();
 
         }
+        public IActionResult Detail(int id)
+        {
+            var paymentRecord = _payComputationService.GetById(id);
+            if (paymentRecord == null)
+            {
+                return NotFound();
+            }
+            var model = new PaymentRecordDetailViewModel()
+            {
+                Id = paymentRecord.Id,
+                EmployeeId = paymentRecord.EmployeeId,
+                FullName = paymentRecord.FullName,
+                NiNo = paymentRecord.NiNo,
+                PayDate = paymentRecord.PayDate,
+                PayMonth = paymentRecord.PayMonth,
+                TaxYearId = paymentRecord.TaxYearId,
+                TaxYear = paymentRecord.TaxYear,                
+                TaxCode = paymentRecord.TaxCode,
+                HourlyRate = paymentRecord.HourlyRate,
+                HoursWorked = paymentRecord.HoursWorked,
+                ContractualHours = paymentRecord.ContractualHours,
+                OverTimeHours = paymentRecord.OvertimeHours,
+                OverTimeRate = _payComputationService.OverTimeRate(paymentRecord.HourlyRate),
+                ContractualEarnings = paymentRecord.ContractualEarnings,
+                OverTimeEarnings = paymentRecord.OvertimeEarnings,
+                Tax = paymentRecord.Tax,
+                NIC = paymentRecord.NIC,
+                UnionFee = paymentRecord.UnionFee,
+                SLC = paymentRecord.SLC,
+                TotalEarnings = paymentRecord.TotalEarnings,
+                TotalDeduction = paymentRecord.TotalDeduction,
+                Employee = paymentRecord.Employee,                
+                NetPayment = paymentRecord.NetPayment
+            };
+            return View(model);
+
+        }
+        [HttpGet]
+        public IActionResult Payslip(int id)
+        {
+            var paymentRecord = _payComputationService.GetById(id);
+            if (paymentRecord == null)
+            {
+                return NotFound();
+            }
+            var model = new PaymentRecordDetailViewModel()
+            {
+                Id = paymentRecord.Id,
+                EmployeeId = paymentRecord.EmployeeId,
+                FullName = paymentRecord.FullName,
+                NiNo = paymentRecord.NiNo,
+                PayDate = paymentRecord.PayDate,
+                PayMonth = paymentRecord.PayMonth,
+                TaxYearId = paymentRecord.TaxYearId,
+                TaxYear = paymentRecord.TaxYear,
+                TaxCode = paymentRecord.TaxCode,
+                HourlyRate = paymentRecord.HourlyRate,
+                HoursWorked = paymentRecord.HoursWorked,
+                ContractualHours = paymentRecord.ContractualHours,
+                OverTimeHours = paymentRecord.OvertimeHours,
+                OverTimeRate = _payComputationService.OverTimeRate(paymentRecord.HourlyRate),
+                ContractualEarnings = paymentRecord.ContractualEarnings,
+                OverTimeEarnings = paymentRecord.OvertimeEarnings,
+                Tax = paymentRecord.Tax,
+                NIC = paymentRecord.NIC,
+                UnionFee = paymentRecord.UnionFee,
+                SLC = paymentRecord.SLC,
+                TotalEarnings = paymentRecord.TotalEarnings,
+                TotalDeduction = paymentRecord.TotalDeduction,
+                Employee = paymentRecord.Employee,                
+                NetPayment = paymentRecord.NetPayment
+            };
+            return View(model);
+
+        }
+
     }
 }

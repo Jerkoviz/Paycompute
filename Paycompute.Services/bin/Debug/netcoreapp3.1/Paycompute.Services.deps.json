@@ -8,11 +8,56 @@
     ".NETCoreApp,Version=v3.1": {
       "Paycompute.Services/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.Mvc": "5.0.0",
           "Paycompute.Entity": "1.0.0",
           "Paycompute.Persistence": "1.0.0"
         },
         "runtime": {
           "Paycompute.Services.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0",
+          "Microsoft.AspNet.WebPages": "3.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.11001.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11001.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11001.0"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11001.0"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11001.0"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.11001.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.0": {
@@ -310,6 +355,14 @@
       },
       "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
@@ -914,6 +967,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNet.Mvc/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dj4C1Nwa1PyxhGtjQx9p6WNTBdvN46gJZMcjQAjxB+2Lmcr+ixior9FGHf9PjH6UUxR9vCZVz16zMlofFdwbPQ==",
+      "path": "microsoft.aspnet.mvc/5.0.0",
+      "hashPath": "microsoft.aspnet.mvc.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mU1W0PRd1uQAb+triRGp51YYkw26RQ9q1tWPX57eHqxDqjx1smRHhejQhhnoAGr3bZDkl8AoUxegGR3tNM+YKA==",
+      "path": "microsoft.aspnet.razor/3.0.0",
+      "hashPath": "microsoft.aspnet.razor.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wkz/rBJlALE/tVfhVFpadcaBK0oLGOb8AbuyWQ5qr84JPHtqWjsJUe3Lfyzu2ZixdYrQ9NuKMNlKIshaJUsCFA==",
+      "path": "microsoft.aspnet.webpages/3.0.0",
+      "hashPath": "microsoft.aspnet.webpages.3.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1109,6 +1183,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.5.0": {
       "type": "package",

@@ -7,7 +7,7 @@ namespace Paycompute.Entity
 {
     public class Employee
     {
-        public int Id { get; set; }
+        public int EmployeeId { get; set; }
         [Required]
         public string EmployeeNo { get; set; }
         [Required]

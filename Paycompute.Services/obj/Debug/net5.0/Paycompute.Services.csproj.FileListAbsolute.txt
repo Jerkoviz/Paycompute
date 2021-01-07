@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.deps.json
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\ref\Paycompute.Services.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Entity.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Persistence.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Entity.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Persistence.pdb
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.CopyComplete
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\ref\Paycompute.Services.dll
+C:\Users\Lenovo\Documents\Projekti\Paycompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.pdb

@@ -5,17 +5,17 @@ using System.Text;
 
 namespace Paycompute.Entity
 {
-   public class PaymentRecord
+    public class PaymentRecord
     {  
         public int Id { get; set; }
-        [ForeignKey("Employee")]
+        [ForeignKey("Employees")]
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
         public string FullName { get; set; }
         public string NiNo { get; set; }
         public DateTime PayDate { get; set; }
         public string PayMonth { get; set; }
-        [ForeignKey("TaxYear")]
+        [ForeignKey("TaxYears")]
         public int TaxYearId { get; set; }
         public TaxYear TaxYear { get; set; }
         public string TaxCode { get; set; }
