@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Paycompute.Entity;
 using Paycompute.Models;
 using Paycompute.Services;
@@ -8,6 +9,7 @@ using System.Web;
 
 namespace Paycompute.Controllers
 {
+    [Authorize(Roles ="Admin, Manager")]
     public class PayController : Controller
     {
         private readonly IPayComputationService _payComputationService;
